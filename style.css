@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(162, 0, 255);
+}
+
+#info{
+    background-color: white;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    margin: 3px;
+}
+
+#info:hover{
+    box-shadow: 2px 2px 10px 10px rgb(253, 253, 253);
+    cursor: grab;
+}
+
+#info:active{
+    cursor: grabbing;
+}
